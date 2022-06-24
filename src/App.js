@@ -57,6 +57,7 @@ const totalnumberofsteps= numberofsteps(days,100)
         <p>
           Name : Lokesh.V <br></br> 
           Company : Iksha Labs <br></br>
+          Location : Gurgaon <br></br>
           Phone : 7013525217 <br></br>
           Email : lokesh@ikshalabs.com <br></br>
           About me : Developing novel solutions for persisting problems 
