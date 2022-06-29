@@ -6,7 +6,7 @@ export const Nav = styled.nav`
 background: #63D471;
 height: 85px;
 display: flex;
-justify-content: space-between;
+justify-content: right;
 padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
@@ -28,7 +28,7 @@ cursor: pointer;
 
 export const Bars = styled(FaBars)`
 display: none;
-color: #808080;
+color: black;
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;

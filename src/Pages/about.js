@@ -23,16 +23,15 @@ else
     h=h-12
     t='PM'
   }   
-
 const About = () => {
 return (
 	<>
-	<div className="App">
+  <div className="App">
       <header className="App-header">
       </header>
     </div>
-	<img src="Loki.jpg" /> 
-        {/* <img src={process.env.PUBLIC_URL+"Loki.jpg"} />  */}
+	{/* <img src="Loki.jpg" />  */}
+        <img src={process.env.PUBLIC_URL+"Loki.jpg"} /> 
         <h1>
          Current Time(IST) : {h}:{m}:{s} {t}
           </h1> 
@@ -55,7 +54,6 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>Hello visitor there is nothing much about me </h1>
 	</div>
 	</>
 );

@@ -12,12 +12,20 @@ return (
 	<>
 	<Nav>
 		<Bars />
-
-		<NavMenu>
+		<NavLink to='/home' activeStyle>
+			Home
+		</NavLink>
+        <NavMenu>
+		<NavLink to='/Awesome facts' activeStyle>
+			Awesome facts
+		</NavLink>
+		<NavLink to='/memes' activeStyle>
+			Memes
+		</NavLink>
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
-		<NavLink to='/sign-up' activeStyle>
+		<NavLink to='/signup' activeStyle>
 			Sign Up
 		</NavLink>
 		</NavMenu>

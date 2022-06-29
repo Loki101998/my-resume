@@ -5,9 +5,12 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import './App.css';
 import Navbar from './Navbar';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Home from './Pages';
+import Index from './Pages';
+import Home from './Pages/home';
 import About from './Pages/about';
 import SignUp from './Pages/signup';
+import Awesomefacts from './Pages/Awesome facts';
+import Memes from './Pages/memes';
 
 
  function numberofsteps(dayswalked,dailySteps)
@@ -30,9 +33,12 @@ let b=totalnumberofsteps();
     <>
     <BrowserRouter>
       <Navbar />
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact component={Index} />
+        <Route path='/home' component={Home} />
         <Route path='/about' component={About} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/signup' component={SignUp} />
+        <Route path='/memes' component={Memes} />
+        <Route path='/Awesome facts' component={Awesomefacts} />
     </BrowserRouter>
     
     </>
