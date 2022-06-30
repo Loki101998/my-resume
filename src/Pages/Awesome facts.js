@@ -4,10 +4,12 @@ const Awesomefacts = () => {
 return (
 	<div
 	style={{
-		display: 'flex',
-		justifyContent: 'Right',
-		alignItems: 'Right',
-		height: '100vh'
+		// display: '',
+		// justifyContent: 'center',
+		//alignItems: 'center',
+		//height: '100vh'
+		marginTop: '200px',
+		marginLeft: '200px',
 	}}
 	>
 	<h1>You are at right place to know some mind blowing facts</h1>
@@ -16,8 +18,8 @@ return (
         <li>The more you ponder about something the more you suffer :( </li>
         <li>Perfection doesn't exist just keep on improving every single day</li>
     </ul>
-	</div>
-);
+	</div> 
+    );
 };
 
 export default Awesomefacts;

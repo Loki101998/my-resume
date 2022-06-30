@@ -25,8 +25,8 @@ return (
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
-		<NavLink to='/signup' activeStyle>
-			Sign Up
+		<NavLink to='/calculate' activeStyle>
+			Calculate
 		</NavLink>
 		</NavMenu>
 	</Nav>
