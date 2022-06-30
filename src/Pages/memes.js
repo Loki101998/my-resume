@@ -12,7 +12,7 @@ return (
 	}}
 	>
 		<ul>
-	<h1>Wanna roll with memes??</h1>
+	<h1>Let's laugh together!!</h1>
 	</ul>
 	</div>
 );
