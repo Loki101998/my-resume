@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Home = () => {
+const Index = () => {
 return (
 	<div
 	style={{
 		display: 'flex',
-		justifyContent: 'Right',
-		alignItems: 'Right',
-		height: '100vh'
+		justifyContent: 'Center',
+		alignItems: 'Center',
+		height: '90vh'
 	}}
 	>
 	<h1>Welcome to my page</h1>
@@ -15,4 +15,4 @@ return (
 );
 };
 
-export default Home;
+export default Index;

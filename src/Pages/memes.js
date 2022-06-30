@@ -4,13 +4,16 @@ const Memes = () => {
 return (
 	<div
 	style={{
+		background:'#33ccff',
 		display: 'flex',
-		justifyContent: 'Right',
-		alignItems: 'Right',
-		height: '100vh'
+		justifyContent: 'Center',
+		alignItems: 'Center',
+		height: '90vh'
 	}}
 	>
+		<ul>
 	<h1>Wanna roll with memes??</h1>
+	</ul>
 	</div>
 );
 };
