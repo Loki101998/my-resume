@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import Button from 'react-bootstrap/Button';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './App.css';
@@ -8,38 +9,23 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Index from './Pages';
 import Home from './Pages/home';
 import About from './Pages/about';
-import Calculate,{multiplyBy,divideBy} from './Pages/calculate';
+import Calculate from './Pages/calculate';
 import Awesomefacts from './Pages/Awesome facts';
 import Memes from './Pages/memes';
 
 
- function numberofsteps(dayswalked,dailySteps)
- {
- let stepCount= 40;
- return function Steps()
- 
- {
-  stepCount= stepCount+(dailySteps*dayswalked)
-  return stepCount;
-
- }}
- let days = Math.floor(Math.random() * 100) + 1;
-const totalnumberofsteps= numberofsteps(days,100)
-let b=totalnumberofsteps();
-
-function App() {
+ function App() {
   return (
     <>
     <BrowserRouter>
       <Navbar />
-        <Route path='/' exact component={Index} />
+        
         <Route path='/home' component={Home} />
         <Route path='/about' component={About} />
         <Route path='/calculate' component={Calculate} />
-        {/* <Route path='/calculate' component={multiplyBy} /> */}
-        {/* <Route path='/calculate' component={divideBy} /> */}
         <Route path='/memes' component={Memes} />
         <Route path='/Awesome facts' component={Awesomefacts} />
+        <Route path='/' exact component={Index} />
     </BrowserRouter>
     
     </>

@@ -5,14 +5,16 @@ const Calculate = () => {
 	{ 
 		   let num1 = document.getElementById("firstNumber").value;
 		   let num2 = document.getElementById("secondNumber").value;
-		   document.getElementById("result").innerHTML = num1 / num2;
+		   let n=num1/num2;
+		   document.getElementById("result").innerHTML = n.toFixed(3);
 	}
    
    function multiplyBy()
    {
 		 let num1 = document.getElementById("firstNumber").value;
 		 let num2 = document.getElementById("secondNumber").value;
-		 document.getElementById("result").innerHTML= num1 * num2;
+		 let n=num1*num2;
+		 document.getElementById("result").innerHTML= n.toFixed(3);
 		 
    }
    
@@ -26,14 +28,25 @@ return (
 		height: '90vh',
     }}
 	>
-		<ul>
+		<div>
 	<form>
-	<p>First Number :</p> <input type="text" id="firstNumber" 
+	<input type="text" placeholder='Enter first number'    id="firstNumber" 
 	style={{
 		marginBottom: '20px',
+		marginLeft: '1px',
+		border: '1px solid red',
+		padding : '10px',
+        borderRadius: '20px',
 	}} 
 	/><br></br>
-      <p>Second Number:</p>  <input type="text" id="secondNumber" /><br></br>
+    <input type="text" placeholder='Enter second number' id="secondNumber" 
+	style={{
+		outline: 'none !important',
+		background:'#ffffff',
+        border: '1px solid red',
+		padding : '10px',
+        borderRadius: '20px',
+	}}/><br></br>
 	<input type="button" onClick={multiplyBy} Value="Multiply" 
 	style={{
 		marginTop: '20px',
@@ -53,9 +66,9 @@ return (
 		fontStyle:'italic',
 		marginTop: '20px',
 		marginLeft: '10px',
-	  }}
-	> Result :   <p style={{marginLeft: '10px',}}id = "result" > </p> </p>  
-	</ul>
+	 }}
+	> Result :   <p id = "result" > </p> </p>  
+	</div>
 	</div>
 );
 };

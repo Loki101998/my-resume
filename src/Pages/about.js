@@ -13,9 +13,21 @@ return (
     
 	  }}
 	>
-	     <ul>
-       <img src="Loki.jpg" />  
-        <p>
+	     <div>
+       <img 
+          style={{
+            marginBottom: '20px',
+            marginLeft:'100px',
+            borderRadius: '500px',
+            padding: '20px',
+          }}
+       src="Loki.jpg" />  
+        <p
+        style={{
+          fontStyle:'italic',
+          fontWeight:'900',
+          color: '#615957',
+        }}>
           Name : Lokesh.V <br></br> 
           Company : Iksha Labs <br></br>
           Location : Gurgaon <br></br>
@@ -23,7 +35,7 @@ return (
           Email : lokesh@ikshalabs.com <br></br>
           About me : Developing novel solutions for persisting problems 
         </p>
-        </ul>
+        </div>
         </div>
   </>
 );

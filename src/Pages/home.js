@@ -28,18 +28,41 @@ else
    t='PM'
 
 const Home = () => {
+  function numberofsteps(dayswalked,dailySteps)
+ {
+ let stepCount= 40;
+ return function Steps()
+ 
+ {
+  stepCount= stepCount+(dailySteps*dayswalked)
+  return stepCount;
+
+ }}
+ let days = Math.floor(Math.random() * 100) + 1;
+const totalnumberofsteps= numberofsteps(days,100)
+let b=totalnumberofsteps();
 return (
 	<div
 	style={{
 		background:'#33ccff',
 		display: 'flex',
 		justifyContent: 'Center',
-	    alignItems: 'Center',
-		height: '90vh'
+	  alignItems: 'Center',
+		height: '90vh',
+    //fontStyle: 'italic',
 	}}
 	>
 	  <ul>
-	    <h1>Welcome to my page</h1>
+	    
+    <marquee direction="Left" 
+        behavior="alternate"
+        style={{
+          marginBottom: '400px',
+          fontSize: '30px',
+          color: '#302f2f',
+          fontStyle: 'appleChancery,cursive',
+        }} 
+        > Welcome to my page </marquee>
 		<h2>
             I'm from India and its {h}:{m} {t} here
           </h2> 
