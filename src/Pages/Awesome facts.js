@@ -5,21 +5,28 @@ return (
 	<div
 	style={{
 		background:'#33ccff', 
-		display: 'flex',
-		 justifyContent: 'Center',
+		//display: 'flex',
+		justifyContent: 'Center',
 		alignItems: 'Center',
-		height: '90vh'
+		height: '100vh'
 		
 	}}
 	>
-		<ul>
+		
 	<h1>You are at right place to know some mind blowing facts</h1>
-    <ul>
-        <li>You fart on average 14 times a day, and each fart travels from your body at 7 mph.</li>
-        <li>The more you ponder about something the more you suffer :( </li>
-        <li>Perfection doesn't exist just keep on improving every single day</li>
-    </ul>
-	</ul>
+    <div
+	style={{
+		display:'block',
+		
+	}}
+	>
+        <p>Its not just rosemilk that's in pink,even Hippopotamus's milk is </p>
+        <img src='hippo.jpg' height="150px" width="150px"alt="Hippo" /><hr></hr>
+        <p>Snails take the longest naps with some lasting as long as three years.</p>
+		<img src="snail.jpg" alt="snail"height="150px" width="150px"/><hr></hr>
+        <p>Your brain uses 10 watts of energy to think and does not feel pain.</p>
+		<img src="brainfact.jpg" alt="brain fact"height="150px" width="150px"/><hr></hr>
+    </div> 
 	</div> 
     );
 };

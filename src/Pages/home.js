@@ -41,6 +41,10 @@ const Home = () => {
  let days = Math.floor(Math.random() * 100) + 1;
 const totalnumberofsteps= numberofsteps(days,100)
 let b=totalnumberofsteps();
+function res(){
+  
+  document.getElementById("result").innerHTML=totalnumberofsteps();
+}
 return (
 	<div
 	style={{
@@ -48,28 +52,33 @@ return (
 		display: 'flex',
 		justifyContent: 'Center',
 	  alignItems: 'Center',
-		height: '90vh',
+		height: '100vh',
     //fontStyle: 'italic',
 	}}
 	>
 	  <ul>
 	    
-    <marquee direction="Left" 
-        behavior="alternate"
-        style={{
-          marginBottom: '400px',
-          fontSize: '30px',
-          color: '#302f2f',
-          fontStyle: 'appleChancery,cursive',
-        }} 
-        > Welcome to my page </marquee>
-		<h2>
+        <marquee direction="Left" behavior="alternate" loop="1"
+           style={{
+                    marginBottom: '400px',
+                    fontSize: '30px',
+                    color: '#302f2f',
+                    fontStyle: 'italic',
+                  }} 
+        > Welcome to my page 
+        </marquee>
+		    <h2>
             I'm from India and its {h}:{m} {t} here
-          </h2> 
-           <h3>
+        </h2> 
+        <h3>
             Well {output} !!           
-			</h3>
-	</ul>
+			  </h3>
+        <h4>walking is good and in {days} days i walked 
+        </h4>
+        <input type="button" onClick={res} value='Find steps'/>
+        <h5> Result : <span id = "result" ></span>steps </h5>  
+        <p>total steps after {days} days are {b} steps</p>
+    </ul>
  </div>
 );
 };

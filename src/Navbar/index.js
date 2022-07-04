@@ -1,11 +1,7 @@
 import React from 'react';
-import {
-Nav,
-NavLink,
-Bars,
-NavMenu,
-
-} from './NavbarElements';
+import {Nav,NavLink,Bars,NavMenu,} from './NavbarElements';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 const Navbar = () => {
 return (
@@ -28,6 +24,9 @@ return (
 		<NavLink to='/calculate' activeStyle>
 			Calculate
 		</NavLink>
+	    <NavLink to='/sign-up' activeStyle>
+            Sign Up
+          </NavLink>
 		</NavMenu>
 	</Nav>
 	</>

@@ -25,12 +25,12 @@ return (
 		display: 'flex',
 		justifyContent: 'Center',
 		alignItems: 'Center',
-		height: '90vh',
+		height: '80vh',
     }}
 	>
 		<div>
 	<form>
-	<input type="text" placeholder='Enter first number'    id="firstNumber" 
+	<input type="number" placeholder='Enter first number'    id="firstNumber" 
 	style={{
 		marginBottom: '20px',
 		marginLeft: '1px',
@@ -39,7 +39,7 @@ return (
         borderRadius: '20px',
 	}} 
 	/><br></br>
-    <input type="text" placeholder='Enter second number' id="secondNumber" 
+    <input type="number" placeholder='Enter second number' id="secondNumber" 
 	style={{
 		outline: 'none !important',
 		background:'#ffffff',
