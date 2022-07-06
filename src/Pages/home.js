@@ -48,7 +48,7 @@ function res(){
 return (
 	<div
 	style={{
-		background:'#33ccff',
+		background:'#ffc107',
 		display: 'flex',
 		justifyContent: 'Center',
 	  alignItems: 'Center',

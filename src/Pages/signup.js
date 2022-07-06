@@ -17,13 +17,15 @@ return (
             }}
             ><input type="text" placeholder='enter your name'/>
             </p>
+            <p>Email ID <input type="email" placeholder='enter mail id'/>
+            </p>
             <p><input type="number" placeholder='enter phone number'/>
             </p>
+            
             <label for="birthday">Date of Birth
             </label>
             <input type="date" id="birthday" name="birthday"/>
-            <p>Email ID <input type="email" placeholder='enter mail id'/>
-            </p>
+           
             <input type="button" Value="click to sign up" />
     </div>     
 	

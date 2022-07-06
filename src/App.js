@@ -9,7 +9,7 @@ import Home from './Pages/home';
 import About from './Pages/about';
 import Calculate from './Pages/calculate';
 import Awesomefacts from './Pages/Awesome facts';
-import Memes from './Pages/memes';
+import Memes from './Pages/memes/memes';
 import SignUp from './Pages/signup';
 import Clone from './Pages/clone/clone';
 

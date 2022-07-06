@@ -6,7 +6,7 @@ return (
 	style={{
 		background:'#33ccff', 
 		//display: 'flex',
-		justifyContent: 'Center',
+		justifyContent: 'center',
 		alignItems: 'Center',
 		height: '100vh'
 		
