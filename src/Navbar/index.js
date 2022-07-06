@@ -1,36 +1,71 @@
 import React from 'react';
-import {Nav,NavLink,Bars,NavMenu,} from './NavbarElements';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.js';
+import {Nav,NavLink,NavItem} from "reactstrap"
 
-const Navbar = () => {
+
+const Navbarrr = () => {
 return (
 	<>
-	<Nav>
-		<Bars />
-		<NavLink to='/home' activeStyle>
-			Home
-		</NavLink>
-        <NavMenu>
-		<NavLink to='/Awesome facts' activeStyle>
-			Awesome facts
-		</NavLink>
-		<NavLink to='/memes' activeStyle>
-			Memes
-		</NavLink>
-		<NavLink to='/about' activeStyle>
-			About
-		</NavLink>
-		<NavLink to='/calculate' activeStyle>
-			Calculate
-		</NavLink>
-	    <NavLink to='/sign-up' activeStyle>
-            Sign Up
-          </NavLink>
-		</NavMenu>
-	</Nav>
+	<div>
+  <Nav
+    fill
+    pills
+    tabs
+  >
+    <NavItem>
+      <NavLink
+        active
+        href='home'
+      >
+		 Home
+      </NavLink>
+    </NavItem>
+    <NavItem>
+      <NavLink active href="about">
+        About Me
+      </NavLink>
+    </NavItem>
+    <NavItem>
+      <NavLink
+        active href="Awesome facts"
+       >
+        Awesome facts
+      </NavLink>
+    </NavItem>
+	<NavItem>
+      <NavLink
+        active href="calculate"
+       >
+        Calculate
+      </NavLink>
+    </NavItem>
+	<NavItem>
+      <NavLink
+        active href="clone"
+       >
+        Clone site
+      </NavLink>
+    </NavItem>
+	<NavItem>
+      <NavLink
+        active href="memes"
+       >
+        Memes
+      </NavLink>
+    </NavItem>
+	<NavItem>
+      <NavLink
+        active href="sign-up"
+       >
+        Sign Up
+      </NavLink>
+    </NavItem>
+  </Nav>
+</div>
+
 	</>
 );
 };
 
-export default Navbar;
+export default Navbarrr;
+
+
