@@ -1,5 +1,3 @@
-//import logo from './logo.svg';
-//import Button from 'react-bootstrap/Button';
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +11,7 @@ import Calculate from './Pages/calculate';
 import Awesomefacts from './Pages/Awesome facts';
 import Memes from './Pages/memes';
 import SignUp from './Pages/signup';
-import Clone from './Pages/clone';
+import Clone from './Pages/clone/clone';
 
 function App() {
   return (
