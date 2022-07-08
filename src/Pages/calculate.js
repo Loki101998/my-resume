@@ -30,7 +30,9 @@ return (
 	>
 		<div>
 	<form>
-	<input type="number" placeholder='Enter first number'    id="firstNumber" 
+	<input type="number" placeholder='Enter first number' min={0} id="firstNumber" 
+	
+	       
 	style={{
 		marginBottom: '20px',
 		marginLeft: '1px',
