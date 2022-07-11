@@ -2,11 +2,10 @@ import React from 'react';
 import './App.css';
 import Navbarrr from './Navbar';
 import { BrowserRouter, Route } from 'react-router-dom';
-//import Index from './Pages';
 import Home from './Pages/home';
 import About from './Pages/about';
 import Calculate from './Pages/calculate';
-import Awesomefacts from './Pages/Awesome facts';
+import Awesomefacts from './Pages/Awesome facts/Awesome facts';
 import Memes from './Pages/memes/memes';
 import Clone from './Pages/clone/clone';
 

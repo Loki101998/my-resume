@@ -2,12 +2,9 @@ import React from "react";
 
 const Navbarrr = () => {
   return (
-    
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  
-  <ul class="nav justify-content-end">
-      <div class="container-fluid">
-          
+      <ul class="nav justify-content-end">
+        <div class="container-fluid">
           <button
             class="navbar-toggler"
             type="button"
@@ -22,10 +19,10 @@ const Navbarrr = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-            <a class="navbar-brand" href="home">
-            Home
-          </a>
-          </li>
+                <a class="navbar-brand" href="home">
+                  Home
+                </a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="about">
                   About Me
@@ -54,10 +51,8 @@ const Navbarrr = () => {
             </ul>
           </div>
         </div>
-        </ul>
-      </nav>
-    
-    
+      </ul>
+    </nav>
   );
 };
 
