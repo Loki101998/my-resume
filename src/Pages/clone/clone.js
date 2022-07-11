@@ -20,6 +20,11 @@ export default function Clone() {
                 <img src="imdb.jpg" className="nav--logo"/>
            </nav>
                 {/* Image and text */}
+          <div
+          style={{
+               background:'#b2b266',
+          }}
+          >
            <section className="hero">
                 <h1 className="hero-head1">Watch Thor Love and Thunder in your nearby theatres</h1>
                 <img src="thor.jpg" className="hero--photo" />
@@ -29,6 +34,7 @@ export default function Clone() {
            <section className="cards-list">
                 {cards}
             </section>
+            </div>
      </div>
     )
 }

@@ -21,7 +21,7 @@ const Calculate = () => {
 return (
 	<div
 	style={{
-		background:'#33ccff',
+		
 		display: 'flex',
 		justifyContent: 'Center',
 		alignItems: 'Center',
@@ -30,7 +30,7 @@ return (
 	>
 		<div>
 	<form>
-	<input type="number" placeholder='Enter first number' min={0} id="firstNumber" 
+	<input type="number" placeholder='Enter first number' min="0" id="firstNumber" 
 	
 	       
 	style={{

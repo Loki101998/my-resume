@@ -5,7 +5,7 @@ return (
 	<>
        	<div
 	style={{
-		background:'#33ccff', 
+		
     display: 'flex',
 		justifyContent: 'Center',
 		alignItems: 'Center',
