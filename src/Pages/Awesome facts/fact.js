@@ -5,6 +5,7 @@ export default function Fact(props) {
     <div
 	style={{
 		padding: '50px',
+		
 	}}
 	>
       <img src={`${props.item.image}`}  />
